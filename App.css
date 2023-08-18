@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.input-form{
+  display: flex;
+  padding: 10px;
+  border: 1px solid black;
+
+}
+.predict-form{
+  
+}
+.history-component{
+  display: flex;
+  min-height: 12px;
+}
+.white{
+  background-color: aliceblue;
+}
+.red{
+  background-color: red;
+}
+.green{
+  background-color: green;
+}
+.round{
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+}
+.square{
+  /* border: 1px solid black; */
+  width: 20px;
+  height: 10px;
+  margin: 1px;
+}
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+.boder-green{
+  opacity:1 !important;
+  border: 1px solid green;
+  animation-name: moveToRight;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.boder-red{
+  animation-name: moveToLeft;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.user p{
+  padding: 0;
+  margin: 0;
+}
+.history{
+  min-height: 40px;
+  background-color:rgb(247, 173, 173);
+  margin-bottom: 10px;
+  text-align: center;
+}
+.text-green{
+  color: green;
+  font-weight: 700;
+}
+.text-red{
+  color: red;
+  font-weight: 700;
+}
+.remote-fixed{
+  border: 1px solid black;
+  margin: 30px;
+  border-radius: 5px;
+  background-color: rgb(49, 56, 52);
+}
+.user-list{
+  border: 1px solid black;
+  margin: 30px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
+@keyframes moveToRight {
+  from {margin: 0;}
+  to{margin-left: 10%;}
+}
+@keyframes moveToLeft {
+  from {margin-left: 10%;}
+  to{margin: 0;}
+  
+}
